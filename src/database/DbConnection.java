@@ -10,6 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class DbConnection {
+	//Comentario :)
     private Connection con;
     private static DbConnection dbc;
     private DbConnection() {

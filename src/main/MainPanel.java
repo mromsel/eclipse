@@ -26,7 +26,6 @@ public class MainPanel extends Application {
 //        Parent root = FXMLLoader.load(getClass().getResource("/view/LoginView.fxml"));
         Scene scene = new Scene(root);
        
-        
         stage.setScene(scene);
         stage.setTitle("Store POS - Powered by Ramesh Godara");
         stage.getIcons().add(new Image("/asset/icon.png"));
@@ -37,6 +36,7 @@ public class MainPanel extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    	System.out.println("Miriam ha estado aquí");
         launch(args);
     }
     
